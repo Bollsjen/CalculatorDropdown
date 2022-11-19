@@ -33,6 +33,7 @@ class _MyHomePageState extends State<HomePage> {
                   hintText: '0',
                 ),
                 controller: numberController1,
+                keyboardType: TextInputType.number,
               ),
             ),
             DropdownButton<String>(
@@ -68,6 +69,7 @@ class _MyHomePageState extends State<HomePage> {
                   hintText: '0',
                 ),
                 controller: numberController2,
+                keyboardType: TextInputType.number,
               ),
             ),
               Container(
